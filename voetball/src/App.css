@@ -1,0 +1,182 @@
+/* Algemene stijlen */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1b62cd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  background-color: #3c465b;
+}
+.modal {}
+.close-button {}
+.match-title {}
+.team-logos {}
+.team-logo {}
+.vs-text {}
+.match-date {}
+.match-league {}
+.match-venue {}
+.match-referee {}
+.match-score {}
+.match-status {}
+
+/* General Matches page */
+.matches-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #c1c3cc;
+  min-height: 100vh;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  background: #c1c3cc;
+}
+
+/* Search functionality */
+.search-container {
+  width: 100%;
+  height: 3rem;
+  background-image: linear-gradient(180deg, #232b3e, #3c465b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search-label {
+  display: none;
+  
+}
+.search-input {
+  width: 80%;
+  height: 100%;
+  max-height: 100%;
+  background-color: #f1f3f6;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 3px 0px 0px 3px;
+  margin-bottom: 16px;
+  margin-top: -12px;
+  color: #000;
+  padding: 0;
+  padding-left: 1rem;
+}
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 0;
+  background-color: #f1f3f6;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-block-start: 5px;
+  border-radius: 3px;
+  position: absolute;
+  top: 70%;
+  width: 90vw;
+}
+
+.suggestion-item {
+  list-style: none;
+  height: 2rem;
+  padding-left: 1rem;
+  font-family: blambot-casual, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.search-button {
+  width: 10%;
+  height: 100%;
+  background-color: #f1f3f6;
+  border: none;
+  border-radius: 0px 3px 3px 0px;
+  margin-bottom: 16px;
+  margin-top: -12px;
+  color: #000;
+  
+}
+
+/* Filters */
+.filter-container {
+  width: 100%;
+  height: 3rem;
+  background: #626275;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.filter-label {}
+.league-filter {
+  background: hsla(0, 0%, 5%, .2);
+  height: 100%;
+}
+.date-picker-container {}
+.date-label {}
+.date-picker {}
+
+/* Matches list */
+.matches-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-inline-start: 0;
+  min-height: 60vh;
+}
+.match-item {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+  height: 8rem;
+  background: #e5e8ed;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.team-logo-small {
+  height: 4rem;
+}
+.no-matches {}
+
+.match-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.match-team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  height: 100%;
+  width: 15rem;
+}
+
+/* Pagination */
+.pagination {}
+.pagination-button {}
+.pagination-pages {}
+.pagination-page-button {}
+
